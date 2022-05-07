@@ -1,0 +1,63 @@
+* {
+    background-blend-mode: soft-light;
+}
+
+body {
+    background: #FFFFFE;
+    font-family: 'Inconsolata', monospace;
+    /*font-size: 1,5em;*/
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 37px;
+    /*line-height: 1.5;*/
+}
+
+.nav {
+    background-color: #FAF3F8;
+    padding-top: 0.2em;
+    padding-right: 0px;
+    padding-bottom: 0.2em;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    padding: 0.2em 0;
+    animation: 8000ms ease-in-out infinite color-change;
+}
+
+a:visited {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a,
+p {
+    padding: 0.5em;
+    color: #2e2e2e;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
