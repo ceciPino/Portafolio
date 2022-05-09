@@ -61,3 +61,55 @@ a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
 }
+
+.welcome {
+    width: auto;
+    object-fit: cover;
+    border: 1.5px solid #333333;
+    border: none;
+    overflow: hidden;
+    height: 20rem;
+    top: 15px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+.hidden {
+  opacity:0;
+}
+
+.console-container {
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  height: 20rem;
+  top: 15px;
+}
+
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  left:10px;
+}
+
+
+.pitch {
+    background-image: radial-gradient(#999999 10%, transparent 10%);
+    background-size:20px 20px;
+    width: 100%;
+    border: 1px solid rgba(153, 153, 153, 0);
+   
+  }
+  
+  .pitch h1 {
+    margin: 1.5em 3em;
+    text-align: center; 
+  }
