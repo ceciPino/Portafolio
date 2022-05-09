@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
- consoleText(['Hello World.', 'Hola Mundo', 'Moshi Moshi'], 'text',['#ffb93c','8B8BAE','lightblue']);
+ consoleText(['Hello World_', 'Hola Mundo!_', 'Moshi Moshi'], 'text',['#ffb93c','#8B8BAE','lightblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -47,5 +47,5 @@ function consoleText(words, id, colors) {
 
       visible = true;
     }
-  }, 400)
+  }, 600)
 }

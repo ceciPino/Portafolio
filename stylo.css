@@ -63,12 +63,12 @@ a:-webkit-any-link {
 }
 
 .welcome {
-    width: auto;
+    width: 70%;
     object-fit: cover;
     border: 1.5px solid #333333;
     border: none;
     overflow: hidden;
-    height: 20rem;
+    height: 15rem;
     top: 15px;
 }
 
@@ -90,7 +90,7 @@ a:-webkit-any-link {
   left:0;
   right:0;
   margin:auto;
-  height: 20rem;
+  height: 18rem;
   top: 15px;
 }
 
@@ -106,10 +106,46 @@ a:-webkit-any-link {
     background-size:20px 20px;
     width: 100%;
     border: 1px solid rgba(153, 153, 153, 0);
+    height: 22rem;
    
   }
   
   .pitch h1 {
     margin: 1.5em 3em;
-    text-align: center; 
+    text-align: justify; 
+  }
+
+  .me {
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+      height: 30%;
+      font-size: 14px;
+  }
+
+  .aboutme{
+      width: 50%;
+      height: 17rem;
+      margin: 15px;
+      margin-top: 11%;
+      line-height: 18px;
+  }
+
+  .fotomia {
+      padding: 10px;
+      width: 50%;
+      height: auto;
+      align-items: center;
+  }
+
+  img {
+    margin-left: 34px;
+    margin-top: 10%;
+    width: 380px;
+    height: 434px;
+    left: 1007px;
+    top: 264px;
+    border-radius: 20%;
   }
