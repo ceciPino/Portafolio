@@ -219,3 +219,21 @@ img {
     height: 17rem;
     line-height: 15px;
 }
+
+.projects {
+    display: grid;
+    columns: 2;
+}
+
+.ghiblers {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+video {
+    height: 12em;
+    width: auto;
+}
