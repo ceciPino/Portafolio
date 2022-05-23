@@ -156,7 +156,10 @@ nav a img:hover {
 }
 
 .pitch h1 {
-    margin: 1.5em 3em;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
     text-align: justify;
     line-height: 1em;
 }
@@ -225,7 +228,7 @@ img {
     columns: 2;
 }
 
-.ghiblers {
+.projectsingular {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -236,4 +239,44 @@ img {
 video {
     height: 12em;
     width: auto;
+    border-radius: 20px;
+}
+
+.skills {
+    display:flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.techskills {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(4, 100px);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-around;
+}
+
+.skillicon {
+    height: 50px;
+    width: 50px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding-top: 10px;
+}
+
+.ftitle {
+    margin-left: 55%;
+    justify-content: right;
+}
+
+.fproject {
+    margin-right: 30%;
+    justify-content: center;
+    text-align: justify;
 }
