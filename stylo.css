@@ -212,8 +212,8 @@ img {
     justify-content: space-around;
     width: auto;
     text-align: left;
-    margin: 24px;
-    padding: 24px;
+    margin: 20px;
+    padding: 10px;
     font-size: 20px;
 
     background-image: radial-gradient(#999999 10%, transparent 10%);
@@ -222,12 +222,6 @@ img {
     border: 1px solid rgba(153, 153, 153, 0);
     height: 17rem;
     line-height: 15px;
-}
-
-.qrportafolio {
-    align-items: center;
-    height: 300px;
-    width: 280;
 }
 
 .projects {
@@ -260,8 +254,11 @@ video {
     margin-right: 40px;
 }
 .prtplantasia {
-    width: 180px;
-    height: auto;
+border-radius: 0px;
+max-height: 350px;
+width: auto;
+margin-top: 0%;
+padding-top: 10px;
 }
 .skills {
     display:flex;
@@ -297,7 +294,12 @@ video {
 }
 
 .fproject {
-    margin-right: 30%;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
     text-align: justify;
+    font-size: 20px;
 }
