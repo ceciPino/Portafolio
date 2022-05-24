@@ -296,7 +296,7 @@ padding-top: 10px;
 .fproject {
     display: flex;
     flex-direction: row;
-    margin-right: 20%;
+    margin-right: 20px;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
